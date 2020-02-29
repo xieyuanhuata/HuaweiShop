@@ -86,9 +86,9 @@ const serverHandler = () => {
       proxies: [
         // 每一个代理配置就是一个对象
         {
-          source: '/gx', // 源, 你的代理标识符
+          source: '/lg', // 源, 你的代理标识符
           // 你直接请求下面这个地址压根也拿不到东西, 因为跨域了
-          target: 'http://127.0.0.1/test.php' // 目标, 你要代理的地址
+          target: 'http://127.0.0.1/server/login.php' // 目标, 你要代理的地址
         },
         {
           source: '/gx2',
@@ -96,6 +96,12 @@ const serverHandler = () => {
         }
       ]
     })) // 开启服务器
+}
+
+// 6. 书写一个移动 server 文件的方法
+const serverMoveHandler = () => {
+  return gulp.src('./src/server/**')
+    .pipe(gulp.dest('./dist/server'))
 }
 
 const sassHandler = () => {
@@ -117,6 +123,7 @@ const watchHandler = () => {
   gulp.watch('./src/pages/*.html', htmlHandler)
   gulp.watch('./src/lib/**', libHandler)
   gulp.watch('./src/img/**', imgHandler)
+  gulp.watch('./src/server/**', serverMoveHandler)
 }
 
 
@@ -131,7 +138,7 @@ const watchHandler = () => {
 //   要在删除完毕 dist 以后, 在执行 css/js/html/... 之类的压缩转移任务
 module.exports.default = gulp.series(
   delHandler,
-  gulp.parallel(sassHandler, jsHandler, htmlHandler, imgHandler, libHandler),
+  gulp.parallel(sassHandler, jsHandler, htmlHandler, imgHandler, libHandler, serverMoveHandler),
   serverHandler,
   watchHandler
 )
