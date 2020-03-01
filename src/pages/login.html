@@ -36,9 +36,10 @@
             <span>扫码登录</span>
           </div>
           <div class="lg_c">
+            <div class="errorTip"></div>
             <div class="lg_form">
               <input type="text" name="username" placeholder="手机号/邮件地址/华为号">
-              <input type="password" name="password"  placeholder="密码">
+              <input type="password" name="password" placeholder="密码">
               <div class="msg_login">
                 <a href="#"> <i class="phoneIcon"></i>短信验证码登录</a>
               </div>
@@ -57,7 +58,7 @@
           </div>
         </div>
         <div class="thirdlogin">
-          <div class="thirdLoginBlock"> 
+          <div class="thirdLoginBlock">
             <div class="thirdLinkTit">
               <i class="line-left"></i>
               <span class="third_tips">其他方式登录</span>
@@ -75,7 +76,7 @@
               </span>
             </div>
           </div>
-          
+
         </div>
       </div>
     </div>
@@ -102,6 +103,7 @@
 
   <!-- js 代码开始 -->
   <script src="/lib/jquery/dist/jquery.min.js"></script>
+  <script src="/js/cookie.tools.js"></script>
   <script src="/js/login.js"></script>
 
 
