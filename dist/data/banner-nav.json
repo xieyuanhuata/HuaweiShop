@@ -1,0 +1,246 @@
+[{
+    "id": "1",
+    "tit": "手机",
+    "list": [{
+        "img": "https://res.vmallres.com/pimages//pages/frontCategory/emEoURCoAws3bwrIgjI8.png",
+        "txt": "HUAWEI Mate系列"
+      },
+      {
+        "img": "https://res.vmallres.com/pimages//pages/frontCategory/o2bkSM98by71VqqvM8oS.png",
+        "txt": "HUAWEI P系列"
+      },
+      {
+        "img": "https://res.vmallres.com/pimages//pages/frontCategory/hMB3rDFRCK75nkgQLr3E.png",
+        "txt": "HUAWEI nova系列"
+      },
+      {
+        "img": "https://res.vmallres.com/pimages//pages/frontCategory/iO74o85KsBQr8wOT1Lkz.png",
+        "txt": "华为畅享系列"
+      },
+      {
+        "img": "https://res.vmallres.com/pimages//pages/frontCategory/emEoURCoAws3bwrIgjI8.png",
+        "txt": "HUAWEI 麦芒系列"
+      },
+      {
+        "img": "https://res.vmallres.com/pimages//pages/frontCategory/J0jm7RuLopoqLL6j9nWc.png",
+        "txt": "荣耀 V系列"
+      },
+      {
+        "img": "https://res.vmallres.com/pimages//pages/frontCategory/qeqlTrp28BVsP4o3gIXq.png",
+        "txt": "荣耀 HONOR系列"
+      },
+      {
+        "img": "https://res.vmallres.com/pimages//pages/frontCategory/SYqixTprBhsmRu0XshUV.png",
+        "txt": "荣耀 X系列"
+      },
+      {
+        "img": "https://res.vmallres.com/pimages//pages/frontCategory/X4J2qszqZycfIqgl4L3j.png",
+        "txt": "荣耀 Play系列"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "tit": "笔记本",
+    "list": [{
+        "img": "https://res.vmallres.com/pimages//pages/frontCategory/RfnzRjvwIx1VTVm8xHfk.png",
+        "txt": "华为Matebook X系列"
+      },
+      {
+        "img": "https://res.vmallres.com/pimages//pages/frontCategory/plqBwqiWNT7w3S1oHify.png",
+        "txt": "华为Matebook系列"
+      },
+      {
+        "img": "https://res.vmallres.com/pimages//pages/frontCategory/tDI1s1C6u0UNK3kpjX35.png",
+        "txt": "华为Matebook D系列"
+      }, {
+        "img": "https://res.vmallres.com/pimages//pages/frontCategory/GNTV5juz4cOhDH2h1c79.png",
+        "txt": "华为Matebook E系列"
+      }, {
+        "img": "https://res.vmallres.com/pimages//pages/frontCategory/hTG8axcpAcm4rlc953p1.png",
+        "txt": "荣耀MagicBook系列"
+      }, {
+        "img": "https://res.vmallres.com/pimages//pages/frontCategory/GNTV5juz4cOhDH2h1c79.png",
+        "txt": "荣耀MagicBook Pro系列"
+      }
+    ]
+  }, {
+    "id": "3",
+    "tit": "平板",
+    "list": [{
+        "img": "https://res.vmallres.com/pimages//pages/frontCategory/SoXonWnoeMUuz9KZRGyw.png",
+        "txt": "华为MatePad 系列"
+      },
+      {
+        "img": "https://res.vmallres.com/pimages//pages/frontCategory/SoXonWnoeMUuz9KZRGyw.png",
+        "txt": "华为畅享 系列"
+      },
+      {
+        "img": "https://res.vmallres.com/pimages//pages/frontCategory/rNU96aYJTd191MSXLJPA.png",
+        "txt": "荣耀数字系列"
+      }, {
+        "img": "https://res.vmallres.com/pimages//pages/frontCategory/6bQtXCQDRZ8480l6N1Eo.png",
+        "txt": "荣耀畅玩系列"
+      }, {
+        "img": "https://res.vmallres.com/pimages//pages/frontCategory/eLF1gIqYi9rTu6t2PGof.png",
+        "txt": "荣耀防水系列"
+      }
+    ]
+  }, {
+    "id": "4",
+    "tit": "智能穿戴&VR",
+    "list": [{
+        "img": "https://res.vmallres.com/pimages//pages/navigation/WiJpmV0tMyVz7QdPq1a7.png",
+        "txt": "智能手表"
+      },
+      {
+        "img": "https://res.vmallres.com/pimages//pages/frontCategory/jfdhwxdBrSpYkrzQlVVN.png",
+        "txt": "儿童手表"
+      },
+      {
+        "img": "https://res.vmallres.com/pimages//pages/navigation/mdCqMsUUZa0ffupVTN1Z.png",
+        "txt": "智能手环"
+      }, {
+        "img": "https://res.vmallres.com/pimages//pages/frontCategory/svCuLCsIylj3EagzlFJm.png",
+        "txt": "智能健康配件"
+      }, {
+        "img": "https://res.vmallres.com/pimages//pages/frontCategory/7rB1eW3yTzlmsJxUhz4o.png",
+        "txt": "VR"
+      }
+    ]
+  }, {
+    "id": "5",
+    "tit": "智能家居",
+    "list": [{
+        "img": "https://res.vmallres.com/pimages//pages/frontCategory/RfnzRjvwIx1VTVm8xHfk.png",
+        "txt": "华为Matebook X系列"
+      },
+      {
+        "img": "https://res.vmallres.com/pimages//pages/frontCategory/plqBwqiWNT7w3S1oHify.png",
+        "txt": "华为Matebook系列"
+      },
+      {
+        "img": "https://res.vmallres.com/pimages//pages/frontCategory/tDI1s1C6u0UNK3kpjX35.png",
+        "txt": "华为Matebook D系列"
+      }, {
+        "img": "https://res.vmallres.com/pimages//pages/frontCategory/GNTV5juz4cOhDH2h1c79.png",
+        "txt": "华为Matebook E系列"
+      }, {
+        "img": "https://res.vmallres.com/pimages//pages/frontCategory/hTG8axcpAcm4rlc953p1.png",
+        "txt": "荣耀MagicBook系列"
+      }, {
+        "img": "https://res.vmallres.com/pimages//pages/frontCategory/GNTV5juz4cOhDH2h1c79.png",
+        "txt": "荣耀MagicBook Pro系列"
+      }
+    ]
+  }, {
+    "id": "6",
+    "tit": "智慧屏",
+    "list": [{
+        "img": "https://res.vmallres.com/pimages//pages/frontCategory/jCygCJMv6ginekIsCBmu.png",
+        "txt": "华为智慧屏"
+      },
+      {
+        "img": "https://res.vmallres.com/pimages//pages/frontCategory/Y9Qxdhyx2CQ6vFxPY89r.png",
+        "txt": "荣耀智慧屏"
+      }
+    ]
+  }, {
+    "id": "7",
+    "tit": "耳机音响",
+    "list": [{
+        "img": "https://res.vmallres.com/pimages//pages/frontCategory/RfnzRjvwIx1VTVm8xHfk.png",
+        "txt": "华为Matebook X系列"
+      },
+      {
+        "img": "https://res.vmallres.com/pimages//pages/frontCategory/plqBwqiWNT7w3S1oHify.png",
+        "txt": "华为Matebook系列"
+      },
+      {
+        "img": "https://res.vmallres.com/pimages//pages/frontCategory/tDI1s1C6u0UNK3kpjX35.png",
+        "txt": "华为Matebook D系列"
+      }, {
+        "img": "https://res.vmallres.com/pimages//pages/frontCategory/GNTV5juz4cOhDH2h1c79.png",
+        "txt": "华为Matebook E系列"
+      }, {
+        "img": "https://res.vmallres.com/pimages//pages/frontCategory/hTG8axcpAcm4rlc953p1.png",
+        "txt": "荣耀MagicBook系列"
+      }, {
+        "img": "https://res.vmallres.com/pimages//pages/frontCategory/GNTV5juz4cOhDH2h1c79.png",
+        "txt": "荣耀MagicBook Pro系列"
+      }
+    ]
+  }, {
+    "id": "8",
+    "tit": "配件",
+    "list": [{
+        "img": "https://res.vmallres.com/pimages//pages/frontCategory/RfnzRjvwIx1VTVm8xHfk.png",
+        "txt": "华为Matebook X系列"
+      },
+      {
+        "img": "https://res.vmallres.com/pimages//pages/frontCategory/plqBwqiWNT7w3S1oHify.png",
+        "txt": "华为Matebook系列"
+      },
+      {
+        "img": "https://res.vmallres.com/pimages//pages/frontCategory/tDI1s1C6u0UNK3kpjX35.png",
+        "txt": "华为Matebook D系列"
+      }, {
+        "img": "https://res.vmallres.com/pimages//pages/frontCategory/GNTV5juz4cOhDH2h1c79.png",
+        "txt": "华为Matebook E系列"
+      }, {
+        "img": "https://res.vmallres.com/pimages//pages/frontCategory/hTG8axcpAcm4rlc953p1.png",
+        "txt": "荣耀MagicBook系列"
+      }, {
+        "img": "https://res.vmallres.com/pimages//pages/frontCategory/GNTV5juz4cOhDH2h1c79.png",
+        "txt": "荣耀MagicBook Pro系列"
+      }
+    ]
+  }, {
+    "id": "9",
+    "tit": "生态产品",
+    "list": [{
+        "img": "https://res.vmallres.com/pimages//pages/frontCategory/RfnzRjvwIx1VTVm8xHfk.png",
+        "txt": "华为Matebook X系列"
+      },
+      {
+        "img": "https://res.vmallres.com/pimages//pages/frontCategory/plqBwqiWNT7w3S1oHify.png",
+        "txt": "华为Matebook系列"
+      },
+      {
+        "img": "https://res.vmallres.com/pimages//pages/frontCategory/tDI1s1C6u0UNK3kpjX35.png",
+        "txt": "华为Matebook D系列"
+      }, {
+        "img": "https://res.vmallres.com/pimages//pages/frontCategory/GNTV5juz4cOhDH2h1c79.png",
+        "txt": "华为Matebook E系列"
+      }, {
+        "img": "https://res.vmallres.com/pimages//pages/frontCategory/hTG8axcpAcm4rlc953p1.png",
+        "txt": "荣耀MagicBook系列"
+      }, {
+        "img": "https://res.vmallres.com/pimages//pages/frontCategory/GNTV5juz4cOhDH2h1c79.png",
+        "txt": "荣耀MagicBook Pro系列"
+      }
+    ]
+  }, {
+    "id": "10",
+    "tit": "增值服务&其他",
+    "list": [{
+        "img": "https://res.vmallres.com/pimages//pages/frontCategory/RfnzRjvwIx1VTVm8xHfk.png",
+        "txt": "华为Matebook X系列"
+      },
+      {
+        "img": "https://res.vmallres.com/pimages//pages/frontCategory/plqBwqiWNT7w3S1oHify.png",
+        "txt": "华为Matebook系列"
+      },
+      {
+        "img": "https://res.vmallres.com/pimages//pages/frontCategory/tDI1s1C6u0UNK3kpjX35.png",
+        "txt": "华为Matebook D系列"
+      }, {
+        "img": "https://res.vmallres.com/pimages//pages/frontCategory/GNTV5juz4cOhDH2h1c79.png",
+        "txt": "华为Matebook E系列"
+      }, {
+        "img": "https://res.vmallres.com/pimages//pages/frontCategory/hTG8axcpAcm4rlc953p1.png",
+        "txt": "荣耀MagicBook系列"
+      }
+    ]
+  }
+]

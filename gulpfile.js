@@ -80,7 +80,7 @@ const serverHandler = () => {
     .pipe(webserver({ // 需要一些配置项
       host: 'localhost', // 域名, 这个域名可以自定义
       port: 8080, // 端口号, 0 ~ 65535, 尽量不适用 0 ~ 1023
-      open: './pages/login.html', // 你默认打开的首页, 从 dist 下面的目录开始书写
+      open: './pages/index.html', // 你默认打开的首页, 从 dist 下面的目录开始书写
       livereload: true, // 自动刷新浏览器 - 热重启
       // 所有的代理配置都在 proxies 里面
       proxies: [
@@ -104,6 +104,11 @@ const serverMoveHandler = () => {
     .pipe(gulp.dest('./dist/server'))
 }
 
+const dataMoveHandler = () => {
+  return gulp.src('./src/data/**')
+    .pipe(gulp.dest('./dist/data'))
+}
+
 const sassHandler = () => {
   return gulp.src('./src/sass/*.scss')
     .pipe(sass())
@@ -124,6 +129,7 @@ const watchHandler = () => {
   gulp.watch('./src/lib/**', libHandler)
   gulp.watch('./src/img/**', imgHandler)
   gulp.watch('./src/server/**', serverMoveHandler)
+  gulp.watch('./src/data/**', dataMoveHandler)
 }
 
 
@@ -138,7 +144,7 @@ const watchHandler = () => {
 //   要在删除完毕 dist 以后, 在执行 css/js/html/... 之类的压缩转移任务
 module.exports.default = gulp.series(
   delHandler,
-  gulp.parallel(sassHandler, jsHandler, htmlHandler, imgHandler, libHandler, serverMoveHandler),
+  gulp.parallel(sassHandler, jsHandler, htmlHandler, imgHandler, libHandler, serverMoveHandler, dataMoveHandler),
   serverHandler,
   watchHandler
 )

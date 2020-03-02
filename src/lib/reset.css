@@ -115,7 +115,6 @@ td {
 html {
   font-size: 100%;
   -webkit-text-size-adjust: 100%;
-  overflow-y: auto
 }
 
 body {
@@ -129,4 +128,23 @@ body {
 a{
   text-decoration: none;
   color: #000;
+}
+
+.width1200{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.clearfix::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.fl{
+  float: left;
+}
+
+.fr{
+  float: right;
 }
