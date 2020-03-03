@@ -1,6 +1,7 @@
 body {
   min-width: 1200px;
   overflow-x: hidden;
+  background-color: #fff;
 }
 
 // 顶部快捷栏
@@ -354,7 +355,7 @@ $border-rad:10px;
       z-index: 2;
       border-radius: $border-rad;
       cursor: pointer;
-      background-color: #eaeaea;
+      background-color: rgba(255, 255, 255, 0.95);
       display: flex;
       flex-direction: column;
       overflow: hidden;
@@ -445,6 +446,7 @@ $border-rad:10px;
           height: 200px;
           margin-left: 13px;
           border-radius: 20px;
+          cursor: pointer;
           transition: all .2s;
 
           &:hover {
@@ -473,14 +475,366 @@ $border-rad:10px;
         padding: 20px 0 10px;
 
         h2 {
-          font-size: 30px;
-          font-weight: bold;
+          font-size: 26px;
+        }
+      }
+
+      .hm-wrap {
+        .recomImg {
+          width: 230px;
+          height: 592px;
+          border-radius: $border-rad;
+          position: relative;
+          transition: all .4s;
+
+          img {
+            @extend .recomImg
+          }
+
+          &:hover {
+            box-shadow: 0 12px 36px rgba(0, 0, 0, 0.1);
+            z-index: 999;
+          }
+        }
+
+        .recomList {
+          width: 968px;
+
+
         }
       }
 
 
+
+    }
+  }
+
+  .recommendation {
+    >h2 {
+      font-size: 26px;
+      color: #333;
+      padding: 27px 0 0 0;
+      font-weight: 400;
+    }
+  }
+
+  .con-channel {
+
+    .h {
+      margin: 35px 0 12px;
+      overflow: hidden;
+      line-height: 32px;
+      position: relative;
+
+      .h-tit {
+        font-size: 26px;
+        color: #333;
+        font-weight: 400;
+      }
+
+      .h-nav {
+        margin-left: 28px;
+        max-width: 950px;
+        height: 32px;
+        overflow: hidden;
+
+        li {
+          float: left;
+          font-size: 14px;
+          cursor: pointer;
+          line-height: 32px;
+          color: rgb(192, 192, 192);
+          margin: 0 10px;
+
+
+          &:hover {
+            color: #cb242b;
+          }
+        }
+
+      }
+
+      .h-more {
+        height: 32px;
+        text-align: center;
+        line-height: 32px;
+
+        a {
+          font-size: 14px;
+          padding-right: 10px;
+          color: #333;
+
+          &::after {
+            content: '';
+            display: inline-block;
+            width: 18px;
+            height: 14px;
+            background: url('https://res8.vmallres.com/20200122/images/echannel/icon/icon03.svg') no-repeat;
+            background-position: -48px 0;
+            position: relative;
+            top: 2px;
+          }
+        }
+      }
+    }
+
+    .b{
+      .b-list{
+        margin: 0 0 -10px;
+        position: relative;
+        left: -10px;
+
+        li{
+          &:nth-child(5n - 4){
+            margin-left: 0;
+          }
+        }
+      }
     }
   }
 }
+
+
+
+
+
+// 全局定义 -------------------------------
+// 定义轮播商品样式
+.goods-rolling {
+  width: 1210px;
+  height: 295px;
+  margin-top: 16px;
+  position: relative;
+  margin-bottom: 8px;
+  left: -5px;
+  overflow: hidden;
+
+  .grid-list {
+    min-width: 1200px;
+
+    .grid-item-recommen {
+      width: 242px;
+      height: 295px;
+      border: 0;
+      padding-top: 3px;
+
+      &:hover {
+        .grid-info {
+          box-shadow: 0 1px 8px rgba(0, 0, 0, 0.1);
+        }
+
+      }
+
+      .grid-info {
+        width: 230px;
+        height: 205px;
+        margin: 0 auto;
+        background-color: #fff;
+        padding-top: 36px;
+        border-radius: $border-rad;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+        transition: all .4s;
+
+        .grid-img {
+          margin: 0 auto;
+          margin-bottom: 19px;
+          width: 150px;
+          height: 150px;
+
+          img {
+            width: 150px;
+            height: 150px;
+            vertical-align: bottom;
+          }
+        }
+
+        .grid-desc {
+          font-size: 14px;
+          line-height: 36px;
+          padding: 0 10px;
+          border-radius: 0 0 10px 10px;
+          background-color: #f3f3f3;
+          color: #777;
+          margin: 0;
+          text-align: center;
+        }
+      }
+
+      .grid-title,
+      .grid-price {
+        width: 230px;
+        display: block;
+        margin: 0 auto;
+        margin-top: 9px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        text-align: center;
+      }
+
+      .grid-price {
+        line-height: 18px;
+        color: #d0021b;
+        margin-bottom: 0;
+        height: auto;
+      }
+    }
+  }
+
+  .recommen-prev {
+    left: 6px;
+    border-radius: 0 10px 10px 0;
+  }
+
+  .recommen-next {
+    right: 6px;
+    border-radius: 10px 0 0 10px;
+  }
+
+  .recommen-prev,
+  .recommen-next {
+    width: 36px;
+    height: 72px;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.06);
+    cursor: pointer;
+    text-align: center;
+    outline: none;
+
+
+    &:hover {
+      background-color: rgba(204, 204, 204, 0.9);
+    }
+
+    &::after {
+      font-size: 16px;
+      text-align: center;
+      color: rgb(61, 61, 61);
+      line-height: 72px;
+      font-weight: 500;
+    }
+  }
+}
+
+// 定义 每个商品 li 标签样式
+.grid-item {
+  width: 230px;
+  height: 290px;
+  background-color: #f9f9f9;
+  border-radius: $border-rad;
+  margin-left: 12px;
+  margin-bottom: 12px;
+  margin-top: 0;
+  float: left;
+  cursor: pointer;
+  transition: all .4s;
+  position: relative;
+
+  .p-img {
+    width: 150px;
+    height: 150px;
+    margin: 35px auto 0;
+
+    img {
+      @extend .p-img;
+      margin: 0;
+    }
+  }
+
+  .p-name {
+    width: 210px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 12px;
+    height: 21px;
+    line-height: 21px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 14px;
+    font-weight: 400px;
+    color: #3a3a3a;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .p-desc {
+    color: #777;
+    line-height: 18px;
+    padding: 0 10px;
+    margin: 2px 20px 7px;
+    font-size: 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .p-price {
+    color: #d0021b;
+    line-height: 21px;
+    margin-bottom: 0;
+    font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  &:hover {
+    z-index: 999;
+    background-color: rgb(252, 252, 252);
+    transform: none;
+    box-shadow: 0 12px 36px rgba(0, 0, 0, 0.1);
+  }
+}
+.grid-item-md{
+  background-color: #fff;
+  img{
+    width: 100%;
+    height: 100%;
+    border-radius: $border-rad;
+  }
+}
+
+
+// 定义 分页器轮播图样式
+.m-banner {
+  width: 1200px;
+  height: 120px;
+  margin-top: 30px;
+  border-radius: $border-rad;
+
+  img {
+    width: 100%;
+    height: 100%;
+    border-radius: $border-rad;
+  }
+
+  .m-banner-pagination {
+    text-align: right;
+    margin-right: 10px;
+    width: 250px !important;
+    left: auto !important;
+    right: 0 !important;
+
+    .swiper-pagination-bullet {
+      width: 10px;
+      height: 10px;
+      border: 1px solid #fff;
+      background-color: transparent;
+      opacity: 1;
+
+    }
+
+    .swiper-pagination-bullet-active {
+      background-color: #fff;
+    }
+
+  }
+}
+
 
 //底部

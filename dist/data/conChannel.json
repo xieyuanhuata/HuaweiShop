@@ -1,0 +1,106 @@
+[{
+  "htit": "手机",
+  "hnav": ["HUAWEI Mate系列", "HUAWEI P系列", "HUAWEI nova系列", "华为畅享系列", "荣耀 V系列", "荣耀 HONOR系列", "荣耀 X系列", "荣耀 Play系列"],
+  "bMainImg": "https://res0.vmallres.com/pimages//frontLocation/content/7TYPwnw44rY2XQS19Tt9.png",
+  "blist": [{
+      "img": "https://res0.vmallres.com/pimages//product/6901443323753/428_428_189FA79392B572C21EE009917E689200B6B6089FEB1C4ED9mp.png",
+      "name": "荣耀20S",
+      "desc": "最高优惠300",
+      "price": "¥1599"
+    },
+    {
+      "img": "https://res0.vmallres.com/pimages//product/6901443331147/428_428_AF39B899DA94231631C86692A2A8E87A05A2430A42872E87mp.png",
+      "name": "HUAWEI Mate 30",
+      "desc": "直降300元|12期免息",
+      "price": "¥3699"
+    },
+    {
+      "img": "https://res0.vmallres.com/pimages//product/6901443320394/428_428_1563504284133mp.png",
+      "name": "荣耀9X PRO",
+      "desc": "优惠200 送运动蓝牙耳机 ",
+      "price": "¥1999"
+    },
+    {
+      "img": "https://res0.vmallres.com/pimages//product/6901443355143/428_428_E455CEB7FFF0BBC92512AF0B51F5A56BEB1E459385B1B22Emp.png",
+      "name": "HUAWEI nova 5i",
+      "desc": "领券减100|赠好礼",
+      "price": "¥1799"
+    }, {
+      "img": "https://res0.vmallres.com/pimages//product/6901443258574/428_428_1550885810815mp.png",
+      "name": "荣耀8X Max",
+      "desc": "最高降800元",
+      "price": "¥999"
+    }, {
+      "img": "https://res0.vmallres.com/pimages//product/6901443327690/428_428_50BAC6E20ED77CBBE6D44BD831603E6F0FB45173DB1EE8B2mp.png",
+      "name": "华为畅享10 Plus",
+      "desc": "最高领券减150",
+      "price": "¥1399"
+    }, {
+      "img": "https://res0.vmallres.com/pimages//product/6901443253975/428_428_09C9E11CCB5B016D635E8958AB4D799FF03FDB678E25D4AAmp.png",
+      "name": "荣耀Note10",
+      "desc": "最高省800享免息到手1599起",
+      "price": "¥1599"
+    }, {
+      "img": "https://res0.vmallres.com/pimages//product/6901443363117/428_428_AB008D014A661DF6E52E184269C6A8A453885402D7D6FC0Bmp.png",
+      "name": "HUAWEI nova 6 SE",
+      "desc": "赠好礼|享6期免息",
+      "price": "¥2199"
+    }, {
+      "img": "https://res0.vmallres.com/pimages//product/6901443304332/428_428_1558244819612mp.png",
+      "name": "荣耀20",
+      "desc": "最高优惠600元",
+      "price": "¥2099"
+    }, {
+      "img": "https://res0.vmallres.com/pimages//product/6901443353347/428_428_484D42DB83550E7CF59813E6BE3E2A9A4CF07CF0E75E32A3mp.png",
+      "name": "HUAWEI Mate 30 RS 保时捷设计",
+      "desc": "享12期免息",
+      "price": "¥12999"
+    }, {
+      "img": "https://res0.vmallres.com/pimages//product/6901443329243/428_428_FADB1B48C9C92E3C47B8518FC93F9747F2D6549ACC4B1FD7mp.png",
+      "name": "荣耀Play3e",
+      "desc": "购机晒单抽好礼",
+      "price": "¥899"
+    }, {
+      "img": "https://res0.vmallres.com/pimages//product/6901443316526/428_428_1563781926439mp.png",
+      "name": "HUAWEI nova 5i Pro",
+      "desc": "领券减100",
+      "price": "¥2099"
+    }, {
+      "img": "https://res0.vmallres.com/pimages//product/6901443307128/428_428_5B9ED48038E3BC14F2D8890AEE7CE8FAA099E10F864816B7mp.png",
+      "name": "荣耀20i",
+      "desc": "最高降500元",
+      "price": "¥1399"
+    },
+    {
+      "img": "https://res0.vmallres.com/pimages//product/6901443354986/428_428_EBE4A3E6989BED3C00249E4629090CDB8563D5C6F269F447mp.png",
+      "name": "华为畅享10",
+      "desc": "最高领券减150",
+      "price": "¥1299"
+    }, {
+      "img": "https://res0.vmallres.com/pimages//product/6901443352685/428_428_8A2025793A107CA11BE7E0A1554665EAD00274E1F37690FDmp.png",
+      "name": "华为畅享 10S",
+      "desc": "最高领券减250",
+      "price": "¥1599"
+    }, {
+      "img": "https://res0.vmallres.com/pimages//product/6901443264797/428_428_1539245339725mp.png",
+      "name": "HUAWEI Mate 20 RS 保时捷设计",
+      "desc": "赠Sound X智能音箱|享6期免息",
+      "price": "¥12999"
+    }, {
+      "img": "https://res0.vmallres.com/pimages//product/6901443261628/428_428_1539243107477mp.png",
+      "name": "HUAWEI Mate 20 Pro",
+      "desc": "领券减800|12期免息",
+      "price": "¥5099"
+    }, {
+      "img": "https://res0.vmallres.com/pimages//product/6901443331635/428_428_B510A01A2C3182A58046679623ADF298DB8AF277F20AD9DDmp.png",
+      "name": "HUAWEI Mate 20 X (5G)",
+      "desc": "直降1000+赠M-pen|12期免息",
+      "price": "¥5199"
+    }, {
+      "img": "https://res0.vmallres.com/pimages//product/6901443260232/428_428_1539230426520mp.png",
+      "name": "HUAWEI Mate 20",
+      "desc": "领券减500|12期免息",
+      "price": "¥3199"
+    }
+  ]
+}]
