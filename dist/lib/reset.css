@@ -148,3 +148,10 @@ a{
 .fr{
   float: right;
 }
+
+.hr-10{
+  height: 10px;
+}
+.hr-20{
+  height: 20px;
+}
