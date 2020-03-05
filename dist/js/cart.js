@@ -1,1 +1,1 @@
-"use strict";
+"use strict";$(function(){var t;JSON.parse(localStorage.getItem("cartlist"))?bindEvent():(t="您的购物车是空的,快去选购吧",naranja().warn({title:"message",text:t,icon:!0,timeout:3e3}),setTimeout(function(){window.location.href="../pages/list.html"},3e3))});

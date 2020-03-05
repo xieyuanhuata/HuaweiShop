@@ -30,11 +30,13 @@ $(function () {
 
       // 勾选七天免登录,设置cookie
       if ($(".lg_checkbox input").prop("checked") === true) {
-        cookie.setCookie('userinfo', `${user}`, 60 * 60 * 24 * 7)
+        cookie.setCookie('userinfo', JSON.stringify(`${user}`), 60 * 60 * 24 * 7)
       }
 
       // 登录成功,跳转
-      $(".errorTip").text("登录成功!")
+
+      $(".errorTip").text(`登录成功 ! 3S 后跳转`)
+      cookie.setCookie('userinfo', JSON.stringify(`${user}`))
       setTimeout(() => {
         window.location.href = '/pages/index.html'
       }, 3000);

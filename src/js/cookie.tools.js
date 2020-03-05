@@ -21,6 +21,9 @@ const cookie = (function () {
   function getCookieAll() {
     var obj = {};
     var strCookie = document.cookie
+    if (strCookie === '') {
+      return false;
+    }
     var arr = setCookie.split("; ")
     for (var i = 0; i < arr.length; i++) {
       var tempArr = arr[i].split("=")
@@ -30,6 +33,9 @@ const cookie = (function () {
 
   // 获取指定cookie
   function getCookie(name) {
+    if (getCookieAll() === false) {
+      return false
+    }
     var obj = getCookieAll()
     return obj[name]
   }

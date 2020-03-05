@@ -1,0 +1,495 @@
+body {
+  min-width: 1200px;
+  overflow-x: hidden;
+  background-color: #fff;
+}
+  .mask {
+    width: 215px;
+    height: 215px;
+    background: #000;
+    filter: Alpha(opacity=50);
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+  }
+
+  .bigshow {
+    width: 430px;
+    height: 430px;
+    overflow: hidden;
+    margin-left: 10px;
+    display: none;
+    border: 1px solid #E8E8E8;
+  }
+
+  .bigshow img {
+    width: 860px;
+    height: 860px;
+    margin-right: 10px;
+  }
+
+  .smallshow {
+    width: 100%;
+    height: 70px;
+    position: relative
+  }
+
+  .smallshow img {
+    width: 100%;
+    border: 1px solid #e8e8e8;
+    box-sizing: border-box;
+    transition: all 0.5s
+  }
+
+  .smallshow>.middle_box {
+    margin-left: 30px;
+    margin-right: 30px;
+    width: 370px;
+    overflow: hidden;
+    height: 70px;
+  }
+
+  .smallshow .middle {
+    overflow: hidden;
+    transition: all 0.5s;
+    height: 70px;
+  }
+
+  .smallshow .middle>li {
+    width: 64px;
+    height: 64px;
+    float: left;
+    cursor: pointer;
+    padding: 0 5px;
+  }
+
+  .smallshow>p {
+    position: absolute;
+    top: 50%;
+    width: 22px;
+    height: 32px;
+    margin-top: -16px;
+  }
+
+  .smallshow>.prev {
+    left: 0;
+    background: url(img/hover-prev.png) no-repeat;
+    transition: all 0.5s
+  }
+
+  .smallshow>.next {
+    right: 0;
+    background: url(img/hover-next.png) no-repeat;
+    transition: all 0.5s
+  }
+
+  .smallshow>.prev.prevnone {
+    left: 0;
+    background: url(img/prev.png) no-repeat;
+    cursor: not-allowed
+  }
+
+  .smallshow>.next.nextnone {
+    right: 0;
+    background: url(img/next.png) no-repeat;
+    cursor: not-allowed
+  }
+
+// 顶部快捷栏
+.shortcut {
+  a {
+    cursor: pointer;
+
+  }
+
+  min-width: 1200px;
+  height: 36px;
+  line-height: 36px;
+  background-color: #2e2828;
+  font-family: "Helvetica Neue",
+  Helvetica,
+  Arial,
+  "Microsoft Yahei",
+  "Hiragino Sans GB",
+  "Heiti SC",
+  "WenQuanYi Micro Hei",
+  sans-serif;
+  position: relative;
+
+  .s-sub {
+    li {
+      float: left;
+      padding: 0 8px;
+      position: relative;
+      line-height: 36px;
+
+      &:first-child {
+        padding-left: 0;
+      }
+
+      &::before {
+        content: "";
+        display: block;
+        width: 1px;
+        height: 10px;
+        position: absolute;
+        top: 13px;
+        left: 0;
+        background-color: #414141;
+      }
+
+      a {
+        color: #afafaf;
+
+        &:hover {
+          color: #fff;
+        }
+      }
+    }
+  }
+
+  .s-dropdown {
+    position: relative;
+    margin: 0 -9px;
+
+
+    .h {
+      height: 36px;
+      line-height: 36px;
+      padding: 0 12px 0 10px;
+      position: relative;
+
+      .icon-dropdown {
+        position: relative;
+        padding-right: 15px;
+
+        &::before {
+          content: "";
+          display: block;
+          width: 14px;
+          height: 14px;
+          background: url("/img/index/icon-commonnew.svg");
+          background-position: -71px 0;
+          position: absolute;
+          top: 0;
+          right: -5px;
+        }
+      }
+    }
+
+    .b {
+      display: none;
+      position: absolute;
+      top: 36px;
+      right: 0;
+      background-color: #fff;
+      z-index: 2;
+
+      .dropdown-more {
+        dt {
+          padding: 10px 0;
+          text-align: center;
+
+
+          a {
+            color: #777;
+
+            &:hover {
+              color: #ca151d;
+            }
+          }
+        }
+
+        &:hover {
+          .b {
+            background-color: #fff;
+          }
+        }
+      }
+
+      .w-119 {
+        width: 119px;
+      }
+
+      .w-85 {
+        width: 85px;
+      }
+    }
+
+    &:hover {
+      .h {
+        background-color: #fff;
+        z-index: 1;
+
+        a {
+          color: #cb242b;
+        }
+      }
+
+      .b {
+        display: block;
+      }
+
+
+      .icon-dropdown {
+        &::before {
+          background-position: -85px 0;
+        }
+      }
+
+    }
+
+  }
+
+  .s-main {
+    li {
+      float: left;
+      padding: 0 8px;
+      position: relative;
+      line-height: 36px;
+
+      &::before {
+        content: "";
+        display: block;
+        width: 1px;
+        height: 10px;
+        position: absolute;
+        top: 13px;
+        left: 0;
+        background-color: #414141;
+      }
+
+      &:first-child {
+        padding-left: 0;
+      }
+
+      a {
+        color: #afafaf;
+
+        &:hover {
+          color: #fff;
+        }
+      }
+
+    }
+  }
+}
+
+// 头部
+
+.header {
+  height: 41px;
+  padding: 18px 0 15px 0;
+  background-color: #fff;
+  position: relative;
+  line-height: 1.5;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.04);
+
+  .h-left {
+    .logo {
+      float: left;
+      margin-right: 34px;
+      height: 36px;
+
+      img {
+        height: 100%;
+        cursor: pointer;
+      }
+    }
+
+    .header-list {
+      float: left;
+      height: 40px;
+      overflow: hidden;
+      max-width: 533px;
+
+      li {
+        margin-right: 24px;
+        float: left;
+      }
+
+      .img {
+        img {
+          display: block;
+          height: 24px;
+          margin-top: 7px;
+
+          &:hover {
+            opacity: .8;
+          }
+        }
+      }
+
+      a {
+        font-size: 16px;
+        color: #333;
+        line-height: 40px;
+        display: block;
+
+        &:hover {
+          color: #cb242b;
+        }
+      }
+    }
+  }
+
+  .h-right {
+
+
+    .search {
+      position: relative;
+    }
+
+    input {
+      display: block;
+      margin-top: 5px;
+      background-color: #f0f0f0;
+      border-radius: 16px;
+      border: none;
+      outline: none;
+      width: 240px;
+      height: 30px;
+      text-indent: 15px;
+      font-size: 14px;
+
+      &:hover {
+        border: 1px solid #c9c9c9;
+      }
+    }
+
+    i {
+      font-size: 20px;
+      cursor: pointer;
+      position: absolute;
+      right: 10px;
+      top: 7px;
+      color: #858585;
+    }
+  }
+
+}
+
+.detail {
+  .detail-label {
+    color: #bbb;
+    margin-left: 1px;
+    line-height: 1.5;
+    padding-top: 10px;
+  }
+
+  .product {
+    margin-top: 20px;
+    position: relative;
+
+    .leftImg {
+      width: 450px;
+      height: 450px;
+      position: relative;
+
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    .bigshow{
+      width: 368px;
+      height: 368px;
+      background-color: #fff;
+      position: absolute;
+      left: 470px;
+      top: 0;
+    }
+
+    .rightInfo {
+      width: 700px;
+      height: auto;
+      padding: 0 0 30px 30px;
+
+      .mainInfo {
+        .product-meta {
+          color: #3a3a3a;
+
+          h1 {
+            font-size: 21px;
+            overflow: hidden;
+            font-weight: 400;
+            margin-bottom: 10px;
+            line-height: 1.5;
+          }
+
+          a {
+            text-decoration: underline;
+            color: #ca141d;
+            font-size: 14px;
+            padding: 5px 0;
+          }
+        }
+
+        .product-info {
+          margin-top: 20px;
+          background-color: #f5f5f5;
+          padding-top: 14px;
+          padding-bottom: 3px;
+
+          .product-list {
+            padding-bottom: 4px;
+            line-height: 30px;
+
+            .product-price {
+              span {
+                font-size: 14px;
+                padding: 5px 10px;
+                line-height: 30px;
+              }
+
+              .price-lable {
+                color: #ca141d;
+                padding-right: 3px;
+                font-size: 18px;
+                line-height: 30px;
+              }
+
+              .pro-price {
+                color: #ca141d;
+                font-size: 22px;
+              }
+
+              .old-price {
+                font-size: 18px;
+                color: #bbb;
+                text-decoration: line-through;
+                font-weight: 500;
+              }
+            }
+          }
+        }
+
+        .sub-button{
+
+          margin-top: 100px;
+
+          a{
+            float: left;
+            display: block;
+            width: 172px;
+            height: 46px;
+            font-size: 18px;
+            line-height: 46px;
+            text-align: center;
+            color: #fff;
+            background-color: #fc600c;
+            border-radius: 2px;
+            margin-right: 10px;
+            &:last-child{
+              background-color: #ca151d;
+            }
+          }
+        }
+
+      }
+    }
+  }
+}
