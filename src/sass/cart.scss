@@ -399,6 +399,11 @@ body {
         color: #fff;
         text-align: center;
       }
+
+      .disabled{
+        opacity: .5;
+        cursor: not-allowed;
+      }
     }
 
     .totle-price{
